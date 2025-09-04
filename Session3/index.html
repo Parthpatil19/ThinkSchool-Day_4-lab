@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM</title>
+  <style>
+    .Highlight {
+      color: rgb(243, 80, 10);
+      font-weight: bold;
+    }
+    .blue {
+      color: blue;
+    }
+    #main{
+        display: flex;
+        justify-content: space-between;
+    }
+    .info{
+        display: none;
+    }
+
+  </style>
+  <script src="dom.js" defer></script>
+</head>
+<body>
+  <h1 id="title">Welcome to DOM Session at Thinkbridge</h1>
+  <p class="info">Paragraph 1</p>
+<section id="main">
+  <button id="btn-change-title">Change Title</button>
+  <br><br>
+  <button id="btn-toggle-class">Toggle Highlight</button>
+  <br><br>
+  <button id="btn-show-url">Show URL</button>
+  <br><br>
+  <button id="btn-body-bg">Change Body Background</button>
+  <br><br>
+  </section>
+  <p id="message">Click a button above</p>
+</body>
+</html>
