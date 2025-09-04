@@ -1,4 +1,4 @@
-# Session - 3 DOM and Events -
+# Session 3 - DOM and Events -
 
 ## Event Listeners
 - Standard way: `element.addEventListener("event", callback)`
