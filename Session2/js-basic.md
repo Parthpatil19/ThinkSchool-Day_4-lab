@@ -1,4 +1,4 @@
-# Javascript Basic -
+# Session 2 - Javascript Basic -
 <hr>
 <h1>Variables</h1>
 
